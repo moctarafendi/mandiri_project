@@ -6,7 +6,7 @@ Fitur di dalam project ini berupa services annual review karyawan:
 1. CRUD User (user yang login) -> Role ada ADMIN dan ADMINISTRATOR
 2. CRUD Employee (employee sebagai karyawan)
 3. CRUD Business Area (pembagian wilayah untuk user)
-4. Transaksi Annual Review
+4. Transaksi Annual Review -> user melakukan flagging review terhadap karyawan
 5. Sudah di proteksi menggunakan JWT Auth
 
 Tools :
