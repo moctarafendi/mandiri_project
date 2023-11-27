@@ -4,12 +4,11 @@ INSERT INTO BusinessAreaMaster(AreaCode,AreaName,CreatedBy,ModifiedOn,ModifiedBy
 INSERT INTO BusinessAreaMaster(AreaCode,AreaName,CreatedBy,ModifiedOn,ModifiedBy) VALUES('JKT-0003','JKT-0003','ADMINISTRATOR',GETDATE(),'ADMINISTRATOR')
 INSERT INTO BusinessAreaMaster(AreaCode,AreaName,CreatedBy,ModifiedOn,ModifiedBy) VALUES('ALL','ALL','ADMINISTRATOR',GETDATE(),'ADMINISTRATOR')
 
-
 -- INSERT DATA USER
-INSERT INTO ApplicationUser(Email,Name,UserId,Password,Phone,Role,BusinessAreaCode,CreatedBy ,ModifiedOn ,ModifiedBy ,Token,TokenExpireDate) VALUES('moctarafendi@gmail.com','ADMINISTRATOR','ADMINISTRATOR','12345','08568056801','ADMINISTRATOR','ALL','ADMINISTRATOR',GETDATE(),'ADMINISTRATOR','',GETDATE())
-INSERT INTO ApplicationUser(Email,Name,UserId,Password,Phone,Role,BusinessAreaCode,CreatedBy ,ModifiedOn ,ModifiedBy ,Token,TokenExpireDate) VALUES('moctarafendi1@gmail.com','Reyhan','ADMIN-0001','12345','087634568345','ADMIN','JKT-0001','ADMINISTRATOR',GETDATE(),'ADMINISTRATOR','',GETDATE())
-INSERT INTO ApplicationUser(Email,Name,UserId,Password,Phone,Role,BusinessAreaCode,CreatedBy ,ModifiedOn ,ModifiedBy ,Token,TokenExpireDate) VALUES('moctarafendi1@gmail.com','Bob','ADMIN-0002','12345','08763324324','ADMIN','JKT-0002','ADMINISTRATOR',GETDATE(),'ADMINISTRATOR','',GETDATE())
-INSERT INTO ApplicationUser(Email,Name,UserId,Password,Phone,Role,BusinessAreaCode,CreatedBy ,ModifiedOn ,ModifiedBy ,Token,TokenExpireDate) VALUES('moctarafendi1@gmail.com','Sarah','ADMIN-0003','12345','08763456569','ADMIN','JKT-0003','ADMINISTRATOR',GETDATE(),'ADMINISTRATOR','',GETDATE())
+INSERT INTO ApplicationUser(Email,Name,UserId,Password,Phone,Role,BusinessAreaCode,CreatedBy ,ModifiedOn ,ModifiedBy ,Token,TokenExpireDate) VALUES('moctarafendi@gmail.com','ADMINISTRATOR','ADMINISTRATOR','/R+jR992c7LN7W72pQKRpAauskpe++qyvfa0h8f0/YWbSyqUfzjxIpWlHBcBB1Tr','08568056801','ADMINISTRATOR','ALL','ADMINISTRATOR',GETDATE(),'ADMINISTRATOR','',GETDATE())
+INSERT INTO ApplicationUser(Email,Name,UserId,Password,Phone,Role,BusinessAreaCode,CreatedBy ,ModifiedOn ,ModifiedBy ,Token,TokenExpireDate) VALUES('moctarafendi1@gmail.com','Reyhan','ADMIN-0001','NXx0fjQqAIsjEtVx4TazfHt+LvHMvyp48uWpGwDf59wRjDaTplbjaq9utwPre3fg','087634568345','ADMIN','JKT-0001','ADMINISTRATOR',GETDATE(),'ADMINISTRATOR','',GETDATE())
+INSERT INTO ApplicationUser(Email,Name,UserId,Password,Phone,Role,BusinessAreaCode,CreatedBy ,ModifiedOn ,ModifiedBy ,Token,TokenExpireDate) VALUES('moctarafendi1@gmail.com','Bob','ADMIN-0002','t/K04ZKQpU4mEkL1+8p1SR0BV3IFXQ+Rs1LLEnlosNcZwmcHOwt1XSYrTPWJOOyW','08763324324','ADMIN','JKT-0002','ADMINISTRATOR',GETDATE(),'ADMINISTRATOR','',GETDATE())
+INSERT INTO ApplicationUser(Email,Name,UserId,Password,Phone,Role,BusinessAreaCode,CreatedBy ,ModifiedOn ,ModifiedBy ,Token,TokenExpireDate) VALUES('moctarafendi1@gmail.com','Sarah','ADMIN-0003','zeQRO+/Q3l9/MsCo81/kTPiWYNS1Z05qrrYQwaPWGXpfaC223dNwIbypS7uSIDu6','08763456569','ADMIN','JKT-0003','ADMINISTRATOR',GETDATE(),'ADMINISTRATOR','',GETDATE())
 
 
 --INSERT DATA EMPLOYEE
